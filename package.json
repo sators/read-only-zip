@@ -1,0 +1,35 @@
+{
+  "name": "read-only-zip",
+  "version": "1.0.0",
+  "description": "A node executable that makes a zip file containing the passed files, marking them as readonly",
+  "main": "bin/index.js",
+  "bin": {
+    "read-only-zip": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sators/read-only-zip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sators/read-only-zip/issues"
+  },
+  "author": "Sators <sators@sators.com>",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "glob": "^7.1.7",
+    "yargs": "^17.0.1"
+  },
+  "keywords": [
+    "filename",
+    "zip",
+    "readonly",
+    "archive",
+    "unzip",
+    "files",
+    "compress",
+    "read-only",
+    "read",
+    "only"
+  ]
+}
